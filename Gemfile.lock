@@ -1,0 +1,36 @@
+PATH
+  remote: .
+  specs:
+    user_info_server (0.1.0)
+      sinatra
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.14.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.3)
+    rack-protection (2.0.8.1)
+      rack
+    rake (12.3.3)
+    rbs (0.8.0)
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  rake (~> 12.0)
+  rbs (~> 0.8.0)
+  user_info_server!
+
+BUNDLED WITH
+   2.1.4
